@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Android Auto</string>
+  <style name="transparent_no_title">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+</resources>
