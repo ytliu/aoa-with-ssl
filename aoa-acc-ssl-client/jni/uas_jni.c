@@ -20,7 +20,7 @@ int jni_aa_cmd(int cmd_len, char *cmd_buf, int res_max, char *res_buf) {
     return 0;
 }
 
-JNIEXPORT jint Java_cn_sjtu_ipads_UasTransport_native_1aa_1cmd(JNIEnv *env, jobject thiz,
+JNIEXPORT jint Java_cn_sjtu_ipads_uas_UasTransport_native_1aa_1cmd(JNIEnv *env, jobject thiz,
     jint cmd_len, jbyteArray cmd_buf, jint res_len, jbyteArray res_buf) {
     jbyte *aa_cmd_buf = NULL;
     jbyte *aa_res_buf = NULL;

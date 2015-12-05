@@ -1,3 +1,5 @@
 bin/
 gen/
 obj/
+aoa-acc-ssl-client/libs/
+aoa-dev-ssl-server/libs/

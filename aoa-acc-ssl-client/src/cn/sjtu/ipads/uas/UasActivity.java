@@ -1,4 +1,4 @@
-package cn.sjtu.ipads;
+package cn.sjtu.ipads.uas;
 
 import android.app.Activity;
 import android.app.Fragment;
